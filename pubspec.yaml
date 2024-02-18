@@ -1,0 +1,60 @@
+name: portfolio_mehroshkw
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  loading_animation_widget: ^1.2.0+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Geometric
+      fonts:
+        - asset: assets/fonts/geometric_706_black_bt.ttf
+    - family: Soin_Sans
+      fonts:
+        - asset: assets/fonts/Soin-Sans-Pro-Roman.ttf
+    - family: Roadway
+      fonts:
+        - asset: assets/fonts/Roadway.ttf
+    - family: BeteNoir
+      fonts:
+        - asset: assets/fonts/BeteNoirNF.ttf
+    - family: ProximaSoft-Bold
+      fonts:
+        - asset: assets/fonts/ProximaSoft-Bold.ttf
+    - family: ProximaSoft-Light
+      fonts:
+        - asset: assets/fonts/ProximaSoft-Light.ttf
+    - family: ProximaSoft-Medium
+      fonts:
+        - asset: assets/fonts/ProximaSoft-Medium.ttf
+    - family: SoinSansNeue-Light
+      fonts:
+        - asset: assets/fonts/Stawix - SoinSansNeue-Light.otf
+    - family: SoinSansNeue-Medium.otf
+      fonts:
+        - asset: assets/fonts/Stawix - SoinSansNeue-Light.otf
